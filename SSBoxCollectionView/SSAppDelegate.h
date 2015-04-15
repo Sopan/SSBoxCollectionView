@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SSAppDelegate.h
 //  SSBoxCollectionView
 //
 //  Created by Sopan Sharma on 4/14/15.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SSAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end
